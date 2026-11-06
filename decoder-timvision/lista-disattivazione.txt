@@ -1,0 +1,28 @@
+# App che lo script disattiva (una per riga, "#" = commento).
+# Le righe commentate sono OPZIONALI: togli il "#" solo se non usi quella funzione.
+# Prima di procedere lancia sempre:  ./pulizia-decoder.sh disattiva --prova
+# I pacchetti TIM, del produttore e i componenti vitali sono comunque protetti dallo script.
+
+# --- Pubblicità / contenuti "consigliati" nella home ---
+com.google.android.tvrecommendations
+com.google.android.leanbacklauncher.recommendations
+com.google.android.partnersetup
+
+# --- Telemetria / segnalazioni / raccolta dati ---
+com.google.android.feedback
+com.google.android.syncadapters.calendar
+
+# --- Opzionali: togli il "#" solo se NON li usi ---
+# com.google.android.katniss              # Assistente Google / ricerca vocale dal telecomando (usa il microfono)
+# com.google.android.apps.mediashell      # Chromecast integrato (ti serve per trasmettere dal telefono)
+# com.google.android.backdrop             # Salvaschermo "Ambient" con foto e suggerimenti
+# com.google.android.play.games           # Google Play Giochi
+# com.google.android.music                # Vecchia app Musica
+# com.google.android.videos               # Google TV / Play Film
+# com.google.android.youtube.tv           # YouTube
+# com.google.android.youtube.tvmusic      # YouTube Music
+# com.netflix.ninja                       # Netflix
+# com.amazon.amazonvideo.livingroom       # Prime Video
+# com.disney.disneyplus                   # Disney+
+# com.spotify.tv.android                  # Spotify
+# com.dazn                                # DAZN
